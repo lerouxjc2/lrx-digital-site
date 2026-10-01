@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LRX Digital | Websites, Google and ads for home-improvement businesses</title>
+<meta name="description" content="LRX Digital builds websites, Google Business Profiles and Meta and Google ads that bring South African home-improvement businesses WhatsApp enquiries and quote requests. Clear prices, no long contracts.">
+<meta property="og:title" content="LRX Digital | Websites, Google and ads that make your phone ring">
+<meta property="og:description" content="Websites, Google and ads for blinds, roofing, solar, pool and other home-improvement businesses. Real results, clear prices, no long contracts.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lrxdigital.com/">
+<meta property="og:image" content="https://lrxdigital.com/brand/og/image.png">
+<link rel="canonical" href="https://lrxdigital.com/">
+<link rel="icon" type="image/png" href="brand/mark/image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E1116; --ink-2:#151A21; --line:#262E39; --paper:#F2F5F7;
+    --mute:#93A0B0; --cyan:#22D3EE; --cyan-deep:#0A93B5; --wa:#25D366;
+    --wrap:1120px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{background:var(--ink);color:var(--paper);font-family:Archivo,system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit}
+  :focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:2px}
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+  .display{font-stretch:118%;font-weight:800;line-height:1.02;letter-spacing:-.02em}
+  h2.display{font-size:clamp(30px,4.2vw,46px)}
+  .lede{color:#C7D0DB;max-width:60ch}
+  .btn{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-stretch:108%;text-decoration:none;padding:15px 24px;border-radius:6px;font-size:16px;transition:background .15s,color .15s,border-color .15s}
+  .btn-wa{background:var(--cyan);color:var(--ink)}
+  .btn-wa:hover{background:#7DE6F6}
+  .btn-ghost{border:1.5px solid var(--line);color:var(--paper)}
+  .btn-ghost:hover{border-color:var(--cyan);color:var(--cyan)}
+  .btn svg{width:20px;height:20px;flex:none}
+
+  /* header */
+  header{position:sticky;top:0;z-index:10;background:rgba(14,17,22,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+  .logo{height:30px;width:auto}
+  header nav{display:flex;gap:28px;align-items:center}
+  header nav a.nl{text-decoration:none;color:var(--mute);font-size:15px}
+  header nav a.nl:hover{color:var(--paper)}
+  header .btn{padding:10px 16px;font-size:15px}
+  @media (max-width:760px){header nav a.nl{display:none}}
+
+  /* hero */
+  .hero{padding:72px 0 88px}
+  .hero .wrap{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:56px;align-items:center}
+  .hero h1{font-size:clamp(40px,6.2vw,74px);margin-bottom:24px}
+  .hero h1 .x{color:var(--cyan)}
+  .hero .lede{font-size:19px;margin-bottom:32px}
+  .ctas{display:flex;flex-wrap:wrap;gap:12px}
+  .trust{margin-top:28px;color:var(--mute);font-size:15px}
+  @media (max-width:900px){.hero .wrap{grid-template-columns:minmax(0,1fr);gap:48px}.hero{padding:48px 0 64px}}
+
+  /* job card: the memorable element */
+  .jobcard{background:var(--paper);color:var(--ink);border-radius:4px;padding:26px 26px 22px;position:relative;box-shadow:0 30px 60px -20px rgba(0,0,0,.6);transform:rotate(1.2deg)}
+  .jobcard::before{content:"";position:absolute;left:0;right:0;top:-9px;height:18px;background:radial-gradient(circle at 9px 9px,var(--ink) 6px,transparent 6.5px) 0 0/22px 18px repeat-x}
+  .jc-head{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:6px}
+  .jc-head strong{font-stretch:118%;font-weight:800;font-size:20px;letter-spacing:-.01em}
+  .jc-meta{font-size:14px;color:#3E4752;margin-bottom:14px}
+  .jc-row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:10px 0;border-bottom:1px dashed #B9C2CC;font-size:15px}
+  .jc-row b{font-stretch:112%;font-weight:800;font-size:19px;white-space:nowrap}
+  .jc-row b.hl{color:var(--cyan-deep)}
+  .jc-quote{margin-top:16px;font-size:15px;line-height:1.5}
+  .jc-quote cite{display:block;margin-top:6px;font-style:normal;font-size:13px;color:#56606C}
+  .stamp{border:2.5px solid var(--cyan-deep);color:var(--cyan-deep);font-weight:800;font-stretch:118%;font-size:14px;padding:4px 10px;border-radius:4px;transform:rotate(-9deg);opacity:.9}
+  @media (max-width:900px){.jobcard{transform:none}}
+
+  section{padding:88px 0}
+  .alt{background:var(--ink-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .sec-head{max-width:720px;margin-bottom:44px}
+  .sec-head h2{margin-bottom:14px}
+
+  /* case study */
+  .case{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:start}
+  .case ul{list-style:none;display:grid;gap:18px}
+  .case li{padding-left:22px;position:relative}
+  .case li::before{content:"";position:absolute;left:0;top:.62em;width:10px;height:10px;background:var(--cyan);clip-path:polygon(0 0,100% 50%,0 100%)}
+  .case li strong{display:block;font-stretch:108%}
+  .case li span{color:#C7D0DB}
+  .ba{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+  .ba figure{position:relative}
+  .ba img{aspect-ratio:4/3;object-fit:cover;width:100%;border-radius:4px}
+  .ba figcaption{position:absolute;left:10px;top:10px;background:rgba(14,17,22,.85);padding:3px 10px;border-radius:99px;font-size:13px;font-weight:700}
+  .ba figure:last-child figcaption{background:var(--cyan);color:var(--ink)}
+  .ba-note{grid-column:1/-1;color:var(--mute);font-size:14px;margin-top:4px}
+  .ba-note a{color:var(--cyan)}
+  @media (max-width:900px){.case{grid-template-columns:minmax(0,1fr)}}
+
+  /* packages */
+  .plans{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .plan{padding:32px 28px;border-right:1px solid var(--line);display:flex;flex-direction:column}
+  .plan:last-child{border-right:0}
+  .plan.pick{background:#10202A;box-shadow:inset 0 3px 0 var(--cyan)}
+  .plan h3{font-stretch:118%;font-weight:800;font-size:24px;margin-bottom:4px}
+  .plan .for{color:var(--mute);font-size:15px;min-height:48px}
+  .price{margin:22px 0 4px;font-stretch:112%;font-weight:800;font-size:34px;letter-spacing:-.01em}
+  .price small{font-size:16px;font-weight:500;color:var(--mute);letter-spacing:0}
+  .setup{color:#C7D0DB;font-size:15px;margin-bottom:22px}
+  .plan ul{list-style:none;display:grid;gap:9px;font-size:15px;margin-bottom:28px}
+  .plan li{padding-left:24px;position:relative}
+  .plan li::before{content:"";position:absolute;left:2px;top:.5em;width:12px;height:7px;border-left:2px solid var(--cyan);border-bottom:2px solid var(--cyan);transform:rotate(-45deg)}
+  .plan li.no{color:#5D6876}
+  .plan li.no::before{border:0;height:2px;width:10px;background:#5D6876;transform:none;top:.75em}
+  .plan .btn{margin-top:auto;justify-content:center}
+  .tag{display:inline-block;font-size:12px;font-weight:700;background:var(--cyan);color:var(--ink);padding:2px 9px;border-radius:99px;margin-left:8px;vertical-align:4px;font-stretch:100%}
+  .fine{color:var(--mute);font-size:14px;margin-top:18px;max-width:75ch}
+  @media (max-width:900px){.plans{grid-template-columns:1fr}.plan{border-right:0;border-bottom:1px solid var(--line)}.plan:last-child{border-bottom:0}.plan .for{min-height:0}}
+
+  /* steps */
+  .steps{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:28px;counter-reset:s}
+  .steps li{counter-increment:s;border-top:2px solid var(--line);padding-top:18px}
+  .steps li::before{content:counter(s);display:block;font-stretch:118%;font-weight:800;font-size:40px;color:var(--cyan);line-height:1;margin-bottom:10px}
+  .steps h3{font-stretch:108%;font-size:19px;margin-bottom:6px}
+  .steps p{color:#C7D0DB;font-size:15px}
+  @media (max-width:900px){.steps{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.steps{grid-template-columns:1fr}}
+
+  /* closing */
+  .close{text-align:left}
+  .close .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:32px}
+  .close h2{max-width:16ch}
+  footer{border-top:1px solid var(--line);padding:36px 0 44px;color:var(--mute);font-size:14px}
+  footer .wrap{display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:start}
+  footer .logo{height:64px}
+  footer a{text-decoration:none}
+  footer a:hover{color:var(--cyan)}
+  footer .cols{display:flex;gap:48px;flex-wrap:wrap}
+  footer h4{color:var(--paper);font-size:14px;margin-bottom:6px}
+  @media (max-width:760px){footer .wrap{grid-template-columns:1fr}}
+
+  .wa-float{position:fixed;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.4);z-index:20}
+  .wa-float svg{width:30px;height:30px;fill:#fff}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="#top" aria-label="LRX Digital home"><img class="logo" src="brand/mark/image.png" alt="LRX Digital" width="140" height="64"></a>
+    <nav aria-label="Main">
+      <a class="nl" href="#results">Results</a>
+      <a class="nl" href="#packages">Packages</a>
+      <a class="nl" href="#how">How it works</a>
+      <a class="btn btn-wa wa-link" href="https://wa.me/27736693880?text=Hi%20LRX%20Digital%2C%20I%27d%20like%20to%20chat%20about%20getting%20more%20enquiries%20for%20my%20business." target="_blank" rel="noopener">WhatsApp me</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1 class="display">Websites, Google and ads that make your phone ring<span class="x">.</span></h1>
+        <p class="lede">I help blinds, roofing, solar, pool and other home-improvement businesses turn online attention into WhatsApp messages and quote requests. One person handles everything, with clear prices and no long contracts.</p>
+        <div class="ctas">
+          <a class="btn btn-wa wa-link" href="https://wa.me/27736693880?text=Hi%20LRX%20Digital%2C%20I%27d%20like%20a%20free%2015-minute%20chat%20about%20my%20business." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>
+            Book a free 15-minute chat
+          </a>
+          <a class="btn btn-ghost" href="#packages">See prices</a>
+        </div>
+        <p class="trust">Free chat on WhatsApp or phone. You own your website, Google profile and ad accounts.</p>
+      </div>
+
+      <article class="jobcard" aria-label="Results for First Choice Blinds SA">
+        <div class="jc-head"><strong>Job card</strong><span class="stamp" aria-label="Status: done">DONE</span></div>
+        <p class="jc-meta">First Choice Blinds SA, outdoor patio blinds, Johannesburg and Pretoria</p>
+        <div class="jc-row"><span>Cost per WhatsApp enquiry from Meta ads</span><b class="hl">R8.49</b></div>
+        <div class="jc-row"><span>Areas covered on Google</span><b>7 to 17</b></div>
+        <div class="jc-row"><span>New job photos on their Google profile</span><b>+11</b></div>
+        <div class="jc-row"><span>Saved on website hosting each year</span><b>±R4,800</b></div>
+        <p class="jc-quote">“Since LRX Digital took over our marketing, we get enquiries on WhatsApp daily.”<cite>Chris, owner, First Choice Blinds SA</cite></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="alt" id="results">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="display">What I did for First Choice Blinds SA</h2>
+        <p class="lede">A new blinds business with almost no online presence. Here is what changed.</p>
+      </div>
+      <div class="case">
+        <ul>
+          <li><strong>A website that turns visitors into quotes</strong><span>Six mobile-friendly pages with real job photos and a quote form that goes straight to WhatsApp.</span></li>
+          <li><strong>A Google profile people actually find</strong><span>Service area grown from 7 to 17 towns, a proper logo and cover photo, job photos and a review link with QR code on every invoice.</span></li>
+          <li><strong>Ads that bring in chats, not just likes</strong><span>Facebook and Instagram campaigns that send people straight to WhatsApp, with enquiries for as little as R8.49 each.</span></li>
+          <li><strong>Every enquiry counted</strong><span>Tracking on every WhatsApp click, phone call and quote form, so the money goes to the ads that bring in work.</span></li>
+          <li><strong>Lower running costs</strong><span>Moved their website to fast, free hosting, saving about R400 a month.</span></li>
+        </ul>
+        <div class="ba">
+          <figure>
+            <img src="https://firstchoiceblindssa.co.za/work/patio-before/image.jpg" alt="Torn old PVC patio enclosure before First Choice Blinds replaced it" loading="lazy" width="800" height="600">
+            <figcaption>Before</figcaption>
+          </figure>
+          <figure>
+            <img src="https://firstchoiceblindssa.co.za/work/patio-after/image.jpg" alt="New canvas and clear PVC patio enclosure by First Choice Blinds" loading="lazy" width="800" height="600">
+            <figcaption>After</figcaption>
+          </figure>
+          <p class="ba-note">Their work, now front and centre on Google and their website. <a href="https://firstchoiceblindssa.co.za/" target="_blank" rel="noopener">Visit firstchoiceblindssa.co.za</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="display">Packages</h2>
+        <p class="lede">Fixed prices, paid month to month. Pick a package or ask for just the part you need.</p>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <h3>Get Found</h3>
+          <p class="for">New businesses that need to look professional and show up on Google.</p>
+          <p class="price">R250<small> /month</small></p>
+          <p class="setup">R7,500 once-off set-up</p>
+          <ul>
+            <li>Website, 5 to 6 pages</li>
+            <li>Google Business Profile</li>
+            <li>Hosting and small updates</li>
+            <li class="no">Meta ads</li>
+            <li class="no">Social media posts</li>
+            <li class="no">Google Ads</li>
+          </ul>
+          <a class="btn btn-ghost wa-link" href="https://wa.me/27736693880?text=Hi%20LRX%20Digital%2C%20I%27m%20interested%20in%20the%20Get%20Found%20package." target="_blank" rel="noopener">Ask about Get Found</a>
+        </div>
+        <div class="plan pick">
+          <h3>Grow <span class="tag">Most popular</span></h3>
+          <p class="for">Businesses ready for a steady flow of enquiries.</p>
+          <p class="price">R3,950<small> /month</small></p>
+          <p class="setup">R7,500 once-off set-up</p>
+          <ul>
+            <li>Everything in Get Found</li>
+            <li>Meta ads on Facebook and Instagram</li>
+            <li>8 social media posts a month</li>
+            <li>Monthly report</li>
+            <li class="no">Google Ads</li>
+          </ul>
+          <a class="btn btn-wa wa-link" href="https://wa.me/27736693880?text=Hi%20LRX%20Digital%2C%20I%27m%20interested%20in%20the%20Grow%20package." target="_blank" rel="noopener">Ask about Grow</a>
+        </div>
+        <div class="plan">
+          <h3>Dominate</h3>
+          <p class="for">Businesses that want leads from Google and social media.</p>
+          <p class="price">R5,500<small> /month</small></p>
+          <p class="setup">R10,000 once-off set-up</p>
+          <ul>
+            <li>Everything in Grow</li>
+            <li>Google Ads search campaign</li>
+            <li>Conversion tracking on calls and WhatsApp</li>
+            <li>Monthly report</li>
+          </ul>
+          <a class="btn btn-ghost wa-link" href="https://wa.me/27736693880?text=Hi%20LRX%20Digital%2C%20I%27m%20interested%20in%20the%20Dominate%20package." target="_blank" rel="noopener">Ask about Dominate</a>
+        </div>
+      </div>
+      <p class="fine">Ad spend is paid directly to Meta or Google from your own card, so you always see exactly what you spend. 50% deposit to start a set-up, balance on launch. Monthly services run month to month with 30 days' notice. Just need a website (R6,500) or a Google profile set-up (R1,500)? Ask for a quote.</p>
+    </div>
+  </section>
+
+  <section class="alt" id="how">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="display">How it works</h2>
+      </div>
+      <ol class="steps">
+        <li><h3>Chat</h3><p>A free 15-minute WhatsApp or phone call about your business and what you need.</p></li>
+        <li><h3>Proposal</h3><p>A clear proposal with fixed prices. No surprises later.</p></li>
+        <li><h3>Build</h3><p>Your website, Google profile and ads are set up, usually within 7 to 14 days.</p></li>
+        <li><h3>Results</h3><p>Everything goes live, and every month you see how many enquiries came in and what they cost.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="close">
+    <div class="wrap">
+      <h2 class="display">Want more enquiries this month?</h2>
+      <a class="btn btn-wa wa-link" href="https://wa.me/27736693880?text=Hi%20LRX%20Digital%2C%20I%27d%20like%20a%20free%2015-minute%20chat%20about%20my%20business." target="_blank" rel="noopener">WhatsApp 073 669 3880</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img class="logo" src="brand/logo/image.png" alt="LRX Digital" width="160" height="104">
+    <div class="cols">
+      <div><h4>Contact</h4><a class="wa-link" href="https://wa.me/27736693880" target="_blank" rel="noopener">WhatsApp 073 669 3880</a></div>
+      <div><h4>Hours</h4>Mon to Thu 08:30 to 16:00<br>Fri 08:30 to 13:00</div>
+      <div><h4>Follow</h4><a href="https://www.facebook.com/search/top?q=LRX%20Digital" target="_blank" rel="noopener">Facebook: LRX Digital</a><br><a href="https://www.instagram.com/lrxdigital.sa/" target="_blank" rel="noopener">Instagram: @LRXDigital.SA</a></div>
+    </div>
+    <p>© <span id="yr">2026</span> LRX Digital</p>
+  </div>
+</footer>
+
+<a class="wa-float wa-link" href="https://wa.me/27736693880?text=Hi%20LRX%20Digital%2C%20I%27d%20like%20to%20chat%20about%20my%20business." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>
+</a>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
